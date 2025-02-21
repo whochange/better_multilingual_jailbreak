@@ -1,0 +1,17 @@
+{
+  "pairwise_metrics": [
+    {
+      "annotator1": "human_annotations_20250211_224635",
+      "annotator2": "human_annotations_20250211_170006",
+      "agreement_rate": 0.6875,
+      "kappa": -0.040462427745664664,
+      "by_language": {
+        "Arabic": 0.8125,
+        "Bengali": 0.3125,
+        "Chinese": 0.9375
+      }
+    }
+  ],
+  "language_agreement": {},
+  "overall_metrics": {}
+}

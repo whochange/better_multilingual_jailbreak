@@ -1,0 +1,41 @@
+{
+  "pairwise_metrics": [
+    {
+      "annotator1": "human_annotations_20250213_101840",
+      "annotator2": "human_annotations_20250213_103525",
+      "agreement_rate": 0.4583333333333333,
+      "kappa": -0.23809523809523814
+    },
+    {
+      "annotator1": "human_annotations_20250213_101840",
+      "annotator2": "human_annotations_20250212_144353",
+      "agreement_rate": 0.5416666666666666,
+      "kappa": -0.07317073170731714
+    },
+    {
+      "annotator1": "human_annotations_20250213_101840",
+      "annotator2": "human_annotations_20250212_181704",
+      "agreement_rate": 0.5625,
+      "kappa": 0.03448275862068961
+    },
+    {
+      "annotator1": "human_annotations_20250213_103525",
+      "annotator2": "human_annotations_20250212_144353",
+      "agreement_rate": 0.7083333333333334,
+      "kappa": 0.17647058823529416
+    },
+    {
+      "annotator1": "human_annotations_20250213_103525",
+      "annotator2": "human_annotations_20250212_181704",
+      "agreement_rate": 0.6458333333333334,
+      "kappa": 0.1282051282051282
+    },
+    {
+      "annotator1": "human_annotations_20250212_144353",
+      "annotator2": "human_annotations_20250212_181704",
+      "agreement_rate": 0.5625,
+      "kappa": -0.1200000000000001
+    }
+  ],
+  "overall_metrics": {}
+}

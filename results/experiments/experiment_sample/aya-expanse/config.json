@@ -1,0 +1,21 @@
+{
+  "data_path": "/nfs/gdata/chengzhi/multilingual_jailbreak/multilingual-safety-for-LLMs-legacy/data/MultiJail.csv",
+  "languages": [
+    "en",
+    "zh",
+    "it",
+    "vi",
+    "ar",
+    "ko",
+    "th",
+    "bn",
+    "sw",
+    "jv"
+  ],
+  "sample_size": 1,
+  "google_credentials": "/mounts/Users/student/chengzhi/.config/gcloud/application_default_credentials.json",
+  "output_dir": "experiments/results",
+  "save_responses": true,
+  "generator_name": "aya-expanse",
+  "run_translation": true
+}

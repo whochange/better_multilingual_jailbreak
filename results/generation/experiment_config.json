@@ -1,0 +1,23 @@
+{
+  "timestamp": "20250205_181108",
+  "languages": [
+    "en",
+    "zh",
+    "it",
+    "vi",
+    "ar",
+    "ko",
+    "th",
+    "bn",
+    "sw",
+    "jv"
+  ],
+  "models": [
+    "aya-101",
+    "seallm",
+    "aya-expanse",
+    "llama-2",
+    "llama-3",
+    "qwen"
+  ]
+}

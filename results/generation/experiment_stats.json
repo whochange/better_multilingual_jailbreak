@@ -1,0 +1,712 @@
+{
+  "models": {
+    "llama-3": {
+      "total_queries": 3150,
+      "by_language": {
+        "sw": {
+          "queries": 315,
+          "harmful_requests": 2,
+          "harmful_responses": 1,
+          "response_refusals": 55,
+          "harmful_requests_en": 275,
+          "harmful_responses_en": 142,
+          "response_refusals_en": 75,
+          "ref_harmful_sum_en": 217
+        },
+        "ko": {
+          "queries": 315,
+          "harmful_requests": 157,
+          "harmful_responses": 24,
+          "response_refusals": 94,
+          "harmful_requests_en": 270,
+          "harmful_responses_en": 76,
+          "response_refusals_en": 111,
+          "ref_harmful_sum_en": 187
+        },
+        "vi": {
+          "queries": 315,
+          "harmful_requests": 94,
+          "harmful_responses": 4,
+          "response_refusals": 204,
+          "harmful_requests_en": 273,
+          "harmful_responses_en": 27,
+          "response_refusals_en": 209,
+          "ref_harmful_sum_en": 236
+        },
+        "en": {
+          "queries": 315,
+          "harmful_requests": 272,
+          "harmful_responses": 13,
+          "response_refusals": 228,
+          "harmful_requests_en": 272,
+          "harmful_responses_en": 13,
+          "response_refusals_en": 228,
+          "ref_harmful_sum_en": 241
+        },
+        "zh": {
+          "queries": 315,
+          "harmful_requests": 211,
+          "harmful_responses": 6,
+          "response_refusals": 203,
+          "harmful_requests_en": 270,
+          "harmful_responses_en": 22,
+          "response_refusals_en": 205,
+          "ref_harmful_sum_en": 227
+        },
+        "ar": {
+          "queries": 315,
+          "harmful_requests": 89,
+          "harmful_responses": 3,
+          "response_refusals": 199,
+          "harmful_requests_en": 274,
+          "harmful_responses_en": 31,
+          "response_refusals_en": 212,
+          "ref_harmful_sum_en": 243
+        },
+        "it": {
+          "queries": 315,
+          "harmful_requests": 187,
+          "harmful_responses": 10,
+          "response_refusals": 204,
+          "harmful_requests_en": 271,
+          "harmful_responses_en": 22,
+          "response_refusals_en": 213,
+          "ref_harmful_sum_en": 235
+        },
+        "bn": {
+          "queries": 315,
+          "harmful_requests": 58,
+          "harmful_responses": 10,
+          "response_refusals": 132,
+          "harmful_requests_en": 282,
+          "harmful_responses_en": 131,
+          "response_refusals_en": 134,
+          "ref_harmful_sum_en": 265
+        },
+        "th": {
+          "queries": 315,
+          "harmful_requests": 61,
+          "harmful_responses": 4,
+          "response_refusals": 171,
+          "harmful_requests_en": 277,
+          "harmful_responses_en": 52,
+          "response_refusals_en": 185,
+          "ref_harmful_sum_en": 237
+        },
+        "jv": {
+          "queries": 315,
+          "harmful_requests": 17,
+          "harmful_responses": 3,
+          "response_refusals": 173,
+          "harmful_requests_en": 278,
+          "harmful_responses_en": 44,
+          "response_refusals_en": 199,
+          "ref_harmful_sum_en": 243
+        }
+      },
+      "safety_metrics": {
+        "harmful_requests": 1148,
+        "harmful_responses": 78,
+        "response_refusals": 1663,
+        "harmful_requests_en": 2742,
+        "harmful_responses_en": 560,
+        "response_refusals_en": 1771,
+        "ref_harmful_sum_en": 2331
+      }
+    },
+    "seallm": {
+      "total_queries": 3150,
+      "by_language": {
+        "sw": {
+          "queries": 315,
+          "harmful_requests": 2,
+          "harmful_responses": 2,
+          "response_refusals": 38,
+          "harmful_requests_en": 286,
+          "harmful_responses_en": 211,
+          "response_refusals_en": 58,
+          "ref_harmful_sum_en": 269
+        },
+        "ko": {
+          "queries": 315,
+          "harmful_requests": 171,
+          "harmful_responses": 17,
+          "response_refusals": 178,
+          "harmful_requests_en": 279,
+          "harmful_responses_en": 71,
+          "response_refusals_en": 192,
+          "ref_harmful_sum_en": 263
+        },
+        "vi": {
+          "queries": 315,
+          "harmful_requests": 96,
+          "harmful_responses": 3,
+          "response_refusals": 253,
+          "harmful_requests_en": 273,
+          "harmful_responses_en": 9,
+          "response_refusals_en": 262,
+          "ref_harmful_sum_en": 271
+        },
+        "en": {
+          "queries": 315,
+          "harmful_requests": 265,
+          "harmful_responses": 4,
+          "response_refusals": 257,
+          "harmful_requests_en": 265,
+          "harmful_responses_en": 4,
+          "response_refusals_en": 257,
+          "ref_harmful_sum_en": 261
+        },
+        "zh": {
+          "queries": 315,
+          "harmful_requests": 222,
+          "harmful_responses": 14,
+          "response_refusals": 225,
+          "harmful_requests_en": 274,
+          "harmful_responses_en": 28,
+          "response_refusals_en": 226,
+          "ref_harmful_sum_en": 254
+        },
+        "ar": {
+          "queries": 315,
+          "harmful_requests": 89,
+          "harmful_responses": 14,
+          "response_refusals": 176,
+          "harmful_requests_en": 278,
+          "harmful_responses_en": 83,
+          "response_refusals_en": 195,
+          "ref_harmful_sum_en": 278
+        },
+        "it": {
+          "queries": 315,
+          "harmful_requests": 189,
+          "harmful_responses": 10,
+          "response_refusals": 246,
+          "harmful_requests_en": 274,
+          "harmful_responses_en": 19,
+          "response_refusals_en": 252,
+          "ref_harmful_sum_en": 271
+        },
+        "bn": {
+          "queries": 315,
+          "harmful_requests": 53,
+          "harmful_responses": 16,
+          "response_refusals": 111,
+          "harmful_requests_en": 282,
+          "harmful_responses_en": 168,
+          "response_refusals_en": 114,
+          "ref_harmful_sum_en": 282
+        },
+        "th": {
+          "queries": 315,
+          "harmful_requests": 56,
+          "harmful_responses": 1,
+          "response_refusals": 207,
+          "harmful_requests_en": 271,
+          "harmful_responses_en": 22,
+          "response_refusals_en": 224,
+          "ref_harmful_sum_en": 246
+        },
+        "jv": {
+          "queries": 315,
+          "harmful_requests": 21,
+          "harmful_responses": 4,
+          "response_refusals": 211,
+          "harmful_requests_en": 279,
+          "harmful_responses_en": 32,
+          "response_refusals_en": 243,
+          "ref_harmful_sum_en": 275
+        }
+      },
+      "safety_metrics": {
+        "harmful_requests": 1164,
+        "harmful_responses": 85,
+        "response_refusals": 1902,
+        "harmful_requests_en": 2761,
+        "harmful_responses_en": 647,
+        "response_refusals_en": 2023,
+        "ref_harmful_sum_en": 2670
+      }
+    },
+    "qwen": {
+      "total_queries": 3150,
+      "by_language": {
+        "sw": {
+          "queries": 315,
+          "harmful_requests": 2,
+          "harmful_responses": 1,
+          "response_refusals": 21,
+          "harmful_requests_en": 282,
+          "harmful_responses_en": 216,
+          "response_refusals_en": 40,
+          "ref_harmful_sum_en": 256
+        },
+        "ko": {
+          "queries": 315,
+          "harmful_requests": 163,
+          "harmful_responses": 5,
+          "response_refusals": 192,
+          "harmful_requests_en": 272,
+          "harmful_responses_en": 16,
+          "response_refusals_en": 208,
+          "ref_harmful_sum_en": 224
+        },
+        "vi": {
+          "queries": 315,
+          "harmful_requests": 94,
+          "harmful_responses": 2,
+          "response_refusals": 199,
+          "harmful_requests_en": 270,
+          "harmful_responses_en": 13,
+          "response_refusals_en": 235,
+          "ref_harmful_sum_en": 248
+        },
+        "en": {
+          "queries": 315,
+          "harmful_requests": 264,
+          "harmful_responses": 10,
+          "response_refusals": 221,
+          "harmful_requests_en": 264,
+          "harmful_responses_en": 10,
+          "response_refusals_en": 221,
+          "ref_harmful_sum_en": 231
+        },
+        "zh": {
+          "queries": 315,
+          "harmful_requests": 208,
+          "harmful_responses": 1,
+          "response_refusals": 219,
+          "harmful_requests_en": 267,
+          "harmful_responses_en": 10,
+          "response_refusals_en": 228,
+          "ref_harmful_sum_en": 238
+        },
+        "ar": {
+          "queries": 315,
+          "harmful_requests": 87,
+          "harmful_responses": 6,
+          "response_refusals": 191,
+          "harmful_requests_en": 270,
+          "harmful_responses_en": 22,
+          "response_refusals_en": 216,
+          "ref_harmful_sum_en": 238
+        },
+        "it": {
+          "queries": 315,
+          "harmful_requests": 190,
+          "harmful_responses": 6,
+          "response_refusals": 209,
+          "harmful_requests_en": 272,
+          "harmful_responses_en": 14,
+          "response_refusals_en": 220,
+          "ref_harmful_sum_en": 234
+        },
+        "bn": {
+          "queries": 315,
+          "harmful_requests": 53,
+          "harmful_responses": 12,
+          "response_refusals": 99,
+          "harmful_requests_en": 282,
+          "harmful_responses_en": 144,
+          "response_refusals_en": 131,
+          "ref_harmful_sum_en": 275
+        },
+        "th": {
+          "queries": 315,
+          "harmful_requests": 55,
+          "harmful_responses": 3,
+          "response_refusals": 205,
+          "harmful_requests_en": 274,
+          "harmful_responses_en": 29,
+          "response_refusals_en": 217,
+          "ref_harmful_sum_en": 246
+        },
+        "jv": {
+          "queries": 315,
+          "harmful_requests": 15,
+          "harmful_responses": 2,
+          "response_refusals": 150,
+          "harmful_requests_en": 272,
+          "harmful_responses_en": 30,
+          "response_refusals_en": 208,
+          "ref_harmful_sum_en": 238
+        }
+      },
+      "safety_metrics": {
+        "harmful_requests": 1131,
+        "harmful_responses": 48,
+        "response_refusals": 1706,
+        "harmful_requests_en": 2725,
+        "harmful_responses_en": 504,
+        "response_refusals_en": 1924,
+        "ref_harmful_sum_en": 2428
+      }
+    },
+    "aya-expanse": {
+      "total_queries": 3150,
+      "by_language": {
+        "sw": {
+          "queries": 315,
+          "harmful_requests": 2,
+          "harmful_responses": 2,
+          "response_refusals": 3,
+          "harmful_requests_en": 277,
+          "harmful_responses_en": 192,
+          "response_refusals_en": 33,
+          "ref_harmful_sum_en": 225
+        },
+        "ko": {
+          "queries": 315,
+          "harmful_requests": 163,
+          "harmful_responses": 2,
+          "response_refusals": 203,
+          "harmful_requests_en": 263,
+          "harmful_responses_en": 7,
+          "response_refusals_en": 219,
+          "ref_harmful_sum_en": 226
+        },
+        "vi": {
+          "queries": 315,
+          "harmful_requests": 90,
+          "harmful_responses": 4,
+          "response_refusals": 195,
+          "harmful_requests_en": 269,
+          "harmful_responses_en": 12,
+          "response_refusals_en": 223,
+          "ref_harmful_sum_en": 235
+        },
+        "en": {
+          "queries": 315,
+          "harmful_requests": 261,
+          "harmful_responses": 4,
+          "response_refusals": 229,
+          "harmful_requests_en": 261,
+          "harmful_responses_en": 4,
+          "response_refusals_en": 229,
+          "ref_harmful_sum_en": 233
+        },
+        "zh": {
+          "queries": 315,
+          "harmful_requests": 210,
+          "harmful_responses": 1,
+          "response_refusals": 211,
+          "harmful_requests_en": 264,
+          "harmful_responses_en": 8,
+          "response_refusals_en": 218,
+          "ref_harmful_sum_en": 226
+        },
+        "ar": {
+          "queries": 315,
+          "harmful_requests": 85,
+          "harmful_responses": 3,
+          "response_refusals": 195,
+          "harmful_requests_en": 265,
+          "harmful_responses_en": 11,
+          "response_refusals_en": 228,
+          "ref_harmful_sum_en": 239
+        },
+        "it": {
+          "queries": 315,
+          "harmful_requests": 192,
+          "harmful_responses": 4,
+          "response_refusals": 233,
+          "harmful_requests_en": 266,
+          "harmful_responses_en": 7,
+          "response_refusals_en": 233,
+          "ref_harmful_sum_en": 240
+        },
+        "bn": {
+          "queries": 315,
+          "harmful_requests": 49,
+          "harmful_responses": 21,
+          "response_refusals": 62,
+          "harmful_requests_en": 277,
+          "harmful_responses_en": 163,
+          "response_refusals_en": 99,
+          "ref_harmful_sum_en": 262
+        },
+        "th": {
+          "queries": 315,
+          "harmful_requests": 53,
+          "harmful_responses": 25,
+          "response_refusals": 58,
+          "harmful_requests_en": 278,
+          "harmful_responses_en": 167,
+          "response_refusals_en": 83,
+          "ref_harmful_sum_en": 250
+        },
+        "jv": {
+          "queries": 315,
+          "harmful_requests": 20,
+          "harmful_responses": 1,
+          "response_refusals": 82,
+          "harmful_requests_en": 264,
+          "harmful_responses_en": 17,
+          "response_refusals_en": 133,
+          "ref_harmful_sum_en": 150
+        }
+      },
+      "safety_metrics": {
+        "harmful_requests": 1125,
+        "harmful_responses": 67,
+        "response_refusals": 1471,
+        "harmful_requests_en": 2684,
+        "harmful_responses_en": 588,
+        "response_refusals_en": 1698,
+        "ref_harmful_sum_en": 2286
+      }
+    },
+    "aya-101": {
+      "total_queries": 3150,
+      "by_language": {
+        "sw": {
+          "queries": 315,
+          "harmful_requests": 2,
+          "harmful_responses": 2,
+          "response_refusals": 31,
+          "harmful_requests_en": 277,
+          "harmful_responses_en": 223,
+          "response_refusals_en": 30,
+          "ref_harmful_sum_en": 253
+        },
+        "ko": {
+          "queries": 315,
+          "harmful_requests": 170,
+          "harmful_responses": 131,
+          "response_refusals": 24,
+          "harmful_requests_en": 281,
+          "harmful_responses_en": 231,
+          "response_refusals_en": 30,
+          "ref_harmful_sum_en": 261
+        },
+        "vi": {
+          "queries": 315,
+          "harmful_requests": 102,
+          "harmful_responses": 87,
+          "response_refusals": 24,
+          "harmful_requests_en": 279,
+          "harmful_responses_en": 219,
+          "response_refusals_en": 36,
+          "ref_harmful_sum_en": 255
+        },
+        "en": {
+          "queries": 315,
+          "harmful_requests": 285,
+          "harmful_responses": 214,
+          "response_refusals": 49,
+          "harmful_requests_en": 285,
+          "harmful_responses_en": 214,
+          "response_refusals_en": 49,
+          "ref_harmful_sum_en": 263
+        },
+        "zh": {
+          "queries": 315,
+          "harmful_requests": 227,
+          "harmful_responses": 168,
+          "response_refusals": 34,
+          "harmful_requests_en": 281,
+          "harmful_responses_en": 217,
+          "response_refusals_en": 43,
+          "ref_harmful_sum_en": 260
+        },
+        "ar": {
+          "queries": 315,
+          "harmful_requests": 90,
+          "harmful_responses": 79,
+          "response_refusals": 21,
+          "harmful_requests_en": 281,
+          "harmful_responses_en": 217,
+          "response_refusals_en": 29,
+          "ref_harmful_sum_en": 246
+        },
+        "it": {
+          "queries": 315,
+          "harmful_requests": 189,
+          "harmful_responses": 155,
+          "response_refusals": 31,
+          "harmful_requests_en": 279,
+          "harmful_responses_en": 222,
+          "response_refusals_en": 35,
+          "ref_harmful_sum_en": 257
+        },
+        "bn": {
+          "queries": 315,
+          "harmful_requests": 46,
+          "harmful_responses": 34,
+          "response_refusals": 28,
+          "harmful_requests_en": 278,
+          "harmful_responses_en": 224,
+          "response_refusals_en": 35,
+          "ref_harmful_sum_en": 259
+        },
+        "th": {
+          "queries": 315,
+          "harmful_requests": 53,
+          "harmful_responses": 40,
+          "response_refusals": 30,
+          "harmful_requests_en": 280,
+          "harmful_responses_en": 212,
+          "response_refusals_en": 37,
+          "ref_harmful_sum_en": 249
+        },
+        "jv": {
+          "queries": 315,
+          "harmful_requests": 15,
+          "harmful_responses": 17,
+          "response_refusals": 30,
+          "harmful_requests_en": 283,
+          "harmful_responses_en": 192,
+          "response_refusals_en": 62,
+          "ref_harmful_sum_en": 254
+        }
+      },
+      "safety_metrics": {
+        "harmful_requests": 1179,
+        "harmful_responses": 927,
+        "response_refusals": 302,
+        "harmful_requests_en": 2804,
+        "harmful_responses_en": 2171,
+        "response_refusals_en": 386,
+        "ref_harmful_sum_en": 2557
+      }
+    },
+    "plots": {
+      "total_queries": 0,
+      "by_language": {},
+      "safety_metrics": {
+        "harmful_requests": 0,
+        "harmful_responses": 0,
+        "response_refusals": 0,
+        "harmful_requests_en": 0,
+        "harmful_responses_en": 0,
+        "response_refusals_en": 0,
+        "ref_harmful_sum_en": 0
+      }
+    },
+    "llama-2": {
+      "total_queries": 3150,
+      "by_language": {
+        "sw": {
+          "queries": 315,
+          "harmful_requests": 9,
+          "harmful_responses": 0,
+          "response_refusals": 255,
+          "harmful_requests_en": 276,
+          "harmful_responses_en": 10,
+          "response_refusals_en": 280,
+          "ref_harmful_sum_en": 290
+        },
+        "ko": {
+          "queries": 315,
+          "harmful_requests": 185,
+          "harmful_responses": 12,
+          "response_refusals": 242,
+          "harmful_requests_en": 273,
+          "harmful_responses_en": 20,
+          "response_refusals_en": 249,
+          "ref_harmful_sum_en": 269
+        },
+        "vi": {
+          "queries": 315,
+          "harmful_requests": 108,
+          "harmful_responses": 7,
+          "response_refusals": 246,
+          "harmful_requests_en": 274,
+          "harmful_responses_en": 12,
+          "response_refusals_en": 257,
+          "ref_harmful_sum_en": 269
+        },
+        "en": {
+          "queries": 315,
+          "harmful_requests": 269,
+          "harmful_responses": 1,
+          "response_refusals": 299,
+          "harmful_requests_en": 269,
+          "harmful_responses_en": 1,
+          "response_refusals_en": 299,
+          "ref_harmful_sum_en": 300
+        },
+        "zh": {
+          "queries": 315,
+          "harmful_requests": 227,
+          "harmful_responses": 6,
+          "response_refusals": 279,
+          "harmful_requests_en": 273,
+          "harmful_responses_en": 6,
+          "response_refusals_en": 279,
+          "ref_harmful_sum_en": 285
+        },
+        "ar": {
+          "queries": 315,
+          "harmful_requests": 105,
+          "harmful_responses": 10,
+          "response_refusals": 207,
+          "harmful_requests_en": 274,
+          "harmful_responses_en": 20,
+          "response_refusals_en": 237,
+          "ref_harmful_sum_en": 257
+        },
+        "it": {
+          "queries": 315,
+          "harmful_requests": 199,
+          "harmful_responses": 5,
+          "response_refusals": 279,
+          "harmful_requests_en": 269,
+          "harmful_responses_en": 8,
+          "response_refusals_en": 280,
+          "ref_harmful_sum_en": 288
+        },
+        "bn": {
+          "queries": 315,
+          "harmful_requests": 77,
+          "harmful_responses": 4,
+          "response_refusals": 204,
+          "harmful_requests_en": 280,
+          "harmful_responses_en": 48,
+          "response_refusals_en": 242,
+          "ref_harmful_sum_en": 290
+        },
+        "th": {
+          "queries": 315,
+          "harmful_requests": 61,
+          "harmful_responses": 13,
+          "response_refusals": 128,
+          "harmful_requests_en": 274,
+          "harmful_responses_en": 34,
+          "response_refusals_en": 221,
+          "ref_harmful_sum_en": 255
+        },
+        "jv": {
+          "queries": 315,
+          "harmful_requests": 44,
+          "harmful_responses": 1,
+          "response_refusals": 296,
+          "harmful_requests_en": 278,
+          "harmful_responses_en": 4,
+          "response_refusals_en": 303,
+          "ref_harmful_sum_en": 307
+        }
+      },
+      "safety_metrics": {
+        "harmful_requests": 1284,
+        "harmful_responses": 59,
+        "response_refusals": 2435,
+        "harmful_requests_en": 2740,
+        "harmful_responses_en": 163,
+        "response_refusals_en": 2647,
+        "ref_harmful_sum_en": 2810
+      }
+    }
+  },
+  "languages": {},
+  "overall": {
+    "total_queries": 18900,
+    "success_rate": 0,
+    "harmful_requests": 0,
+    "harmful_responses": 0,
+    "response_refusals": 0,
+    "harmful_requests_en": 0,
+    "harmful_responses_en": 0,
+    "response_refusals_en": 0
+  }
+}
