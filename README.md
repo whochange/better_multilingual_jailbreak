@@ -3,7 +3,7 @@ This repo contains the codes and the results of the term paper:
 Language Models**](Multilingual_Jailbreaking.pdf)
 
 
-# Better Evaluation on Multilingual Jailbreak
+## Better Evaluation of Multilingual Jailbreak
 
 This repository evaluates safe behavior across multiple languages.
 
