@@ -1,3 +1,8 @@
+This repo contains the codes and the results of the term paper: 
+[**Better Evaluation of Multilingual Jailbreaking Challenges on Large
+Language Models**](Multilingual_Jailbreaking.pdf)
+
+
 # Better Evaluation on Multilingual Jailbreak
 
 This repository evaluates safe behavior across multiple languages.
